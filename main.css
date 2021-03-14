@@ -61,7 +61,7 @@ button {
 .hero-btn::after {
     content: "";
     opacity: 0;
-    width: :auto;
+    width: auto;
     margin-left: .3rem;
     margin-top: -.1rem;
     white-space: nowrap;
@@ -75,7 +75,7 @@ button {
 }
 
 button:hover {
-    width: :auto;
+    width:auto;
     background-color: #0f799c;
     transition: .3s ease all;
 }
@@ -126,7 +126,6 @@ li:hover {
     height: 45rem;
     top: 0;
     z-index: -1;
-    background-color: #e9c46a;
     background-position: -0rem -12rem;
 }
 
@@ -460,6 +459,7 @@ footer button {
 
     .customer-reviews {
         display: flex;
+        flex-direction: column;
         -webkit-flex-direction: column;
     }
     .reviews-container{
