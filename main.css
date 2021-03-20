@@ -75,7 +75,6 @@ button {
 }
 
 button:hover {
-    width:auto;
     background-color: #0f799c;
     transition: .3s ease all;
 }
